@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_collision",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_protag","path":"objects/obj_protag/obj_protag.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_father",
+  "eventList":[],
   "managed":true,
-  "name":"obj_collision",
+  "name":"obj_father",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"characters",
+    "path":"folders/Objects/characters.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,11 +26,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"spr_invisibleWALL",
-    "path":"sprites/spr_invisibleWALL/spr_invisibleWALL.yy",
+    "name":"spr_father",
+    "path":"sprites/spr_father/spr_father.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
